@@ -25,7 +25,7 @@ Node.js
 
 3.numpy
 
-4.cv2
+4.cv2/opencv-python
 
 5.face_recognition
 
