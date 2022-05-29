@@ -40,6 +40,8 @@ Node.js
 10.matplotlib
 
 11.dilib
+
+12.Visual studio community version and check option for Desktop Development with C++
 ## How to run the project
 
 1.Install and setup django (You can refer this: https://youtu.be/VuETrwKYLTM)
