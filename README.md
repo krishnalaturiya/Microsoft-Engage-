@@ -42,6 +42,8 @@ Node.js
 11.dilib
 
 12.Visual studio community version and check option for Desktop Development with C++
+
+13.Install Django framework
 ## How to run the project
 
 1.Install and setup django (You can refer this: https://youtu.be/VuETrwKYLTM)
@@ -51,7 +53,7 @@ Node.js
 3.In the command line locate to the folder you cloned this repository in and then run "python manage.py runserver".
 (If using a virtual environment do not forget to switch to that)
 
-4.A link like " http://127.0.0.1:8000/ " will be generated.Click on it and you are ready to see the web app.
+4.A link like " http://127.0.0.1:8000/ " will be generated.Click on it and you are ready to launch the web app.
 ## How to use this project
 It is supposed to be used for taking attendance of a a bunch of people working togeter on daily basis. 
 User who is head of the organization needs to register himself/herself first and then login using those credentials.
