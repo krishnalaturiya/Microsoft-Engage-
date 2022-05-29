@@ -59,8 +59,9 @@ Node.js
 It is supposed to be used for taking attendance of  a bunch of people working together on daily basis. 
 User who is head of the organization needs to register himself/herself first and then login using those credentials.
 In the back-end , that user needs to add the images of all the employees in the folder /account/Images_attendance in jpg/jpeg form for the model to refer to encodings of those images and compare to the one currently in front of camera.
-If the minimum face distance (face distance is encoding's difference between stored image's encoding and current image in webcam encoding)is > 0.5 then the person is marked unknown and the head would need to interfere.
+If the minimum face distance (face distance is encoding's difference between stored image's encoding( which are stored in a list ) and current image in webcam's encoding ) is > 0.5 then the person is marked unknown and the head would need to interfere.
 If the minimum face distance is < 0.5 ,it marks date,name,time,emotion of a person standing in front of frame and stores it in total_attendance.csv folder in static folder.
+If a user's image is present in the Images_attendance folder and still if web app shows "unknown" in frame , just align the user properly . It will surely detect the person.
 
 ## Corner cases covered:
 1.When a code is run once,it will mark his/her attendance only once , no matter how many times the person comes in front of the camera.
